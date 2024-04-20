@@ -29,6 +29,9 @@
 </head>
 <body>
     <div class="container mt-4">
+         <div id="google_translate_element"></div>
+
+        
         <h2>Sound Studio Setup Checklist</h2>
         <ul class="list-group">
             <li class="list-group-item">
@@ -142,5 +145,16 @@
             updateProgress();
         });
     </script>
+
+      <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'ht,fr', // English and Haitian Creole
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>

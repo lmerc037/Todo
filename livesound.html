@@ -42,82 +42,84 @@
             <button class="font-control" onclick="changeFontSize(-1)">-</button>
             <button class="font-control" onclick="changeFontSize(1)">+</button>
         </div>
-        <h2>Sound Studio Setup Checklist</h2>
-        <ul class="list-group" id="content">
-            <li class="list-group-item">
-                <input type="checkbox" class="form-check-input">
-                Turn on all the <strong>SWITCHES</strong> (Projector, Screen, track, stage, TVs, Sub)
-                <span class="info-button" onclick="toggleInfo(this)">?</span>
-                <div class="info-content">
-                    <div class="row">
-                        <div class="col-sm-4"><img src="switches.jpg" style="max-height:150px;"></div>
-                        <div class="col-sm-8"> Ensure all switches for the projector, screen, track, stage, TVs, and subwoofer are turned on.</div>
-                    </div>
-                </div>
-            </li>
-            <li class="list-group-item">
-                <input type="checkbox" class="form-check-input">
-                Turn on the <strong>POWER AMPLIFIERS</strong> inside the white Rack
-                <span class="info-button" onclick="toggleInfo(this)">?</span>
-                <div class="info-content">
-                    <img src="power.jpg" style="max-height:70px;">
-                    Power amplifiers are located inside the white rack; make sure they are powered on for proper audio output.
-                </div>
-            </li>
-            <li class="list-group-item">
-                <input type="checkbox" class="form-check-input">
-                Turn on the AUDIO MIXER
-                <span class="info-button" onclick="toggleInfo(this)">?</span>
-                <div class="info-content">
-                    Ensure the audio mixer is powered to manage different audio inputs effectively.
-                </div>
-            </li>
-            <li class="list-group-item">
-                <input type="checkbox" class="form-check-input">
-                Activate the <strong>FADER FLIP</strong> and Increase the <strong>MAIN VOLUME</strong> to 5
-                <span class="info-button" onclick="toggleInfo(this)">?</span>
-                <div class="info-content">
-                    Activate the fader flip function and adjust the main volume control to the level 5 setting.
-                </div>
-            </li>
-            <li class="list-group-item">
-                <input type="checkbox" class="form-check-input">
-                Now Go DOWNSTAIRS inside the CHURCH
-                <span class="info-button" onclick="toggleInfo(this)">?</span>
-                <div class="info-content">
-                    Proceed to the downstairs area of the church for further setup requirements.
-                </div>
-            </li>
-            <li class="list-group-item">
-                <input type="checkbox" class="form-check-input">
-                Make sure that all 4 SPEAKERS inside the church are turned on
-                <span class="info-button" onclick="toggleInfo(this)">?</span>
-                <div class="info-content">
-                    Verify that all four speakers located inside the church are powered and functioning.
-                </div>
-            </li>
-            <li class="list-group-item">
-                <input type="checkbox" class="form-check-input">
-                Turn on the STAGE BOX
-                <span class="info-button" onclick="toggleInfo(this)">?</span>
-                <div class="info-content">
-                    Ensure the stage box is activated to facilitate various stage connections.
-                </div>
-            </li>
-            <li class="list-group-item">
-                <input type="checkbox" class="form-check-input">
-                CONNECT / TURN ON the Floor Monitor and the TV
-                <span class="info-button" onclick="toggleInfo(this)">?</span>
-                <div class="info-content">
-                    Make sure the floor monitor and TV are both connected and turned on for visual and audio monitoring.
-                </div>
-            </li>
-            <!-- More items follow the same structure -->
-        </ul>
-        <div class="progress mt-3">
-            <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+        <h2>Liste de vérification pour l'installation d'un studio sonore</h2>
+<ul class="list-group" id="content">
+    <li class="list-group-item">
+        <input type="checkbox" class="form-check-input">
+        Allumer tous les <strong>INTERRUPTEURS</strong> (Projecteur, Écran, piste, scène, téléviseurs, caisson de basses)
+        <span class="info-button" onclick="toggleInfo(this)">?</span>
+        <div class="info-content">
+            <div class="row">
+                <div class="col-sm-4"><img src="switches.jpg" style="max-height:150px;"></div>
+                <div class="col-sm-8"> Assurez-vous que tous les interrupteurs pour le projecteur, l'écran, la piste, la scène, les téléviseurs et le caisson de basses sont activés.</div>
+            </div>
         </div>
-    </div>
+    </li>
+    <li class="list-group-item">
+        <input type="checkbox" class="form-check-input">
+        Allumer les <strong>AMPLIFICATEURS DE PUISSANCE</strong> à l'intérieur du rack blanc
+        <span class="info-button" onclick="toggleInfo(this)">?</span>
+        <div class="info-content">
+            <img src="power.jpg" style="max-height:70px;">
+            Les amplificateurs de puissance se trouvent à l'intérieur du rack blanc ; assurez-vous qu'ils sont alimentés pour une sortie audio appropriée.
+        </div>
+    </li>
+    <li class="list-group-item">
+        <input type="checkbox" class="form-check-input">
+        Allumer la TABLE DE MIXAGE AUDIO
+        <span class="info-button" onclick="toggleInfo(this)">?</span>
+        <div class="info-content">
+            Assurez-vous que la table de mixage audio est alimentée pour gérer efficacement les différentes entrées audio.
+        </div>
+    </li>
+    <li class="list-group-item">
+        <input type="checkbox" class="form-check-input">
+        Activer le <strong>FADER FLIP</strong> et augmenter le <strong>VOLUME PRINCIPAL</strong> à 5
+        <span class="info-button" onclick="toggleInfo(this)">?</span>
+        <div class="info-content">
+            Activez la fonction de basculement du fader et réglez le contrôle du volume principal sur le niveau 5.
+        </div>
+    </li>
+    <li class="list-group-item">
+        <input type="checkbox" class="form-check-input">
+        Maintenant, descendez à l'INTÉRIEUR de l'ÉGLISE
+        <span class="info-button" onclick="toggleInfo(this)">?</span>
+        <div class="info-content">
+            Descendez dans la zone inférieure de l'église pour poursuivre les préparatifs de l'installation.
+        </div>
+    </li>
+    <li class="list-group-item">
+        <input type="checkbox" class="form-check-input">
+        Vérifiez que les 4 HAUT-PARLEURS à l'intérieur de l'église sont allumés
+        <span class="info-button" onclick="toggleInfo(this)">?</span>
+        <div class="info-content">
+            Vérifiez que les quatre haut-parleurs situés à l'intérieur de l'église sont alimentés et fonctionnels.
+        </div>
+    </li>
+    <li class="list-group-item">
+        <input type="checkbox" class="form-check-input">
+        Allumer la BOÎTE DE SCÈNE
+        <span class="info-button" onclick="toggleInfo(this)">?</span>
+        <div class="info-content">
+            Assurez-vous que la boîte de scène est activée pour faciliter diverses connexions sur scène.
+        </div>
+    </li>
+    <li class="list-group-item">
+        <input type="checkbox" class="form-check-input">
+        CONNECTER / ALLUMER le moniteur de scène et le téléviseur
+        <span class="info-button" onclick="toggleInfo(this)">?</span>
+        <div class="info-content">
+            Assurez-vous que le moniteur de scène et le téléviseur sont tous deux connectés et allumés pour le monitoring visuel et audio.
+        </div>
+    </li>
+    <!-- Plus d'éléments suivent la même structure -->
+</ul>
+<div class="progress mt-3">
+    <div class="progress-bar" role="progressbar" style="width: 0%;" aria
+
+-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+</div>
+</div>
 
     <script>
         function toggleInfo(element) {
